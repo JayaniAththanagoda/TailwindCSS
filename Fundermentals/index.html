@@ -462,9 +462,52 @@
       
      </ul>
     </div>
+    <h1>Grid cols and rows</h1>
+    <div class="w-100 grid grid-cols-3 grid-rows-4 gap-4">
+      <div class="p-10 bg-green-300">01</div>
+      <div class="p-10 bg-green-300">02</div>
+      <div class="p-10 bg-green-300">03</div>
+      <div class="p-10 bg-green-300">04</div>
+      <div class="p-10 bg-green-300">05</div>
+      <div class="p-10 bg-green-300">06</div>
+      <div class="p-10 bg-green-300">07</div>
+      <div class="p-10 bg-green-300">08</div>
+      <div class="p-10 bg-green-300">09</div>
 
+    </div>
+    <h2>col and row span</h2>
+    <div class="w-100 grid grid-cols-3 gap-2">
+      <div class="p-10 bg-pink-400 col-span-2 row-span-2">01</div>
+      <div class="p-10 bg-pink-400">02</div>
+      <div class="p-10 bg-pink-400">03</div>
+      <div class="p-10 bg-pink-400 col-span-2 row-span-2">04</div>
+      <div class="p-10 bg-pink-400">05</div>
+      <div class="p-10 bg-pink-400">06</div>
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+    <h1> No Transition</h1>
+    <button class="p-5 text-white bg-green-600 hover:blue-600">Click Me</button>
+    <br/>
+    <hr/>
+    <br/>
+    <h1>Transition</h1>
+    <button class="ml-5 p-5 bg-yellow-300 transition hover:bg-teal-400 duration-300 ease-in-out dealy-150 text-white">with Transition </button>
+    <h1>Transformation</h1>
+    <button class="p-5 ml-5 text-white bg-sky-400 transition ease-in-out dealy-150 duration-1000  hover:-translate-y-2 hover-scale-110 hover:bg-red-400">Transformation</button>
+    <br/>
+    <hr/>
+    <br/>
+    <h1>Animation</h1>
+    <div class="flex justify-center">
+      <div class="p-10  ml-20  mt-20 w-200 bg-teal-200 animate-spin">spin</div>
+      <div class="p-10  ml-20  mt-20 w-100 bg-green-400 animate-ping">ping</div>
+      <div class="p-10  ml-20  mt-20 w-200 bg-pink-200 animate-pulse">pulse</div>
+      <div class="p-10  ml-20  mt-20 w-200 bg-red-500 animate-bounce">bounce</div>
+      
 
-  
+    </div>
 
     
   </body>
